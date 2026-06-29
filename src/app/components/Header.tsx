@@ -14,7 +14,7 @@ export default function Header({ onNavigate }: HeaderProps) {
               onClick={() => onNavigate('search')}
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
-              <div className="w-8 h-8 bg-[#2563eb] rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-[#312E81] rounded-lg flex items-center justify-center">
                 <Car className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold text-[#0f172a]">CarScout</span>
@@ -28,19 +28,19 @@ export default function Header({ onNavigate }: HeaderProps) {
           <nav className="hidden md:flex items-center gap-6">
             <button 
               onClick={() => onNavigate('search')}
-              className="text-[#0f172a] hover:text-[#2563eb] transition-colors"
+              className="text-[#0f172a] hover:text-[#312E81] transition-colors"
             >
               Search
             </button>
             <button 
               onClick={() => onNavigate('for-dealers')}
-              className="text-[#0f172a] hover:text-[#2563eb] transition-colors"
+              className="text-[#0f172a] hover:text-[#312E81] transition-colors"
             >
               For Dealers
             </button>
             <button 
               onClick={() => onNavigate('how-it-works')}
-              className="text-[#0f172a] hover:text-[#2563eb] transition-colors"
+              className="text-[#0f172a] hover:text-[#312E81] transition-colors"
             >
               How It Works
             </button>
@@ -49,7 +49,7 @@ export default function Header({ onNavigate }: HeaderProps) {
           {/* CTA Button */}
           <button 
             onClick={() => onNavigate('search')}
-            className="px-4 py-2 bg-[#2563eb] text-white rounded-lg hover:bg-[#1d4ed8] transition-colors"
+            className="px-4 py-2 bg-[#312E81] text-white rounded-lg hover:bg-[#26236b] transition-colors"
           >
             Start Search
           </button>

@@ -40,7 +40,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
             value={formData.makeModel}
             onChange={(e) => handleChange('makeModel', e.target.value)}
             placeholder="e.g. Golf, Fiesta, BMW 1 Series"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent outline-none"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#312E81] focus:border-transparent outline-none"
           />
         </div>
 
@@ -55,7 +55,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
             value={formData.maxBudget}
             onChange={(e) => handleChange('maxBudget', e.target.value)}
             placeholder="e.g. 10000"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent outline-none"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#312E81] focus:border-transparent outline-none"
           />
         </div>
 
@@ -68,7 +68,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
             id="minYear"
             value={formData.minYear}
             onChange={(e) => handleChange('minYear', e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent outline-none bg-white"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#312E81] focus:border-transparent outline-none bg-white"
           >
             <option>Any</option>
             <option>2024</option>
@@ -93,7 +93,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
             id="fuelType"
             value={formData.fuelType}
             onChange={(e) => handleChange('fuelType', e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent outline-none bg-white"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#312E81] focus:border-transparent outline-none bg-white"
           >
             <option>Any</option>
             <option>Petrol</option>
@@ -112,7 +112,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
             id="transmission"
             value={formData.transmission}
             onChange={(e) => handleChange('transmission', e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent outline-none bg-white"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#312E81] focus:border-transparent outline-none bg-white"
           >
             <option>Any</option>
             <option>Manual</option>
@@ -131,7 +131,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
             value={formData.postcode}
             onChange={(e) => handleChange('postcode', e.target.value)}
             placeholder="e.g. SW9"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent outline-none"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#312E81] focus:border-transparent outline-none"
           />
         </div>
 
@@ -144,7 +144,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
             id="range"
             value={formData.range}
             onChange={(e) => handleChange('range', e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent outline-none bg-white"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#312E81] focus:border-transparent outline-none bg-white"
           >
             <option>Any distance</option>
             <option>5 miles</option>
@@ -159,7 +159,7 @@ export default function SearchForm({ onSearch }: SearchFormProps) {
       {/* Search Button */}
       <button
         type="submit"
-        className="w-full py-3 px-6 bg-[#2563eb] text-white rounded-lg hover:bg-[#1d4ed8] transition-colors flex items-center justify-center gap-2 font-medium"
+        className="w-full py-3 px-6 bg-[#312E81] text-white rounded-lg hover:bg-[#26236b] transition-colors flex items-center justify-center gap-2 font-medium"
       >
         <Search className="w-5 h-5" />
         Search Cars

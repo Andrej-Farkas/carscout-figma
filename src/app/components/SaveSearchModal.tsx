@@ -31,7 +31,7 @@ function SearchSummaryChips({ searchParams }: { searchParams: SearchParams }) {
       {chips.map((chip, i) => (
         <span
           key={i}
-          className="inline-flex items-center px-2.5 py-1 rounded-full bg-blue-50 text-[#2563eb] text-xs font-medium border border-blue-100"
+          className="inline-flex items-center px-2.5 py-1 rounded-full bg-violet-50 text-[#312E81] text-xs font-medium border border-violet-100"
         >
           {chip}
         </span>
@@ -118,7 +118,7 @@ export default function SaveSearchModal({ isOpen, onClose, searchParams, sortOpt
               </p>
               <button
                 onClick={onClose}
-                className="px-6 py-2 bg-[#2563eb] text-white rounded-lg hover:bg-[#1d4ed8] transition-colors font-medium"
+                className="px-6 py-2 bg-[#312E81] text-white rounded-lg hover:bg-[#26236b] transition-colors font-medium"
               >
                 Done
               </button>
@@ -127,8 +127,8 @@ export default function SaveSearchModal({ isOpen, onClose, searchParams, sortOpt
             <>
               {/* Header */}
               <div className="mb-5">
-                <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-4">
-                  <Bell className="w-5 h-5 text-[#2563eb]" />
+                <div className="w-10 h-10 bg-violet-50 rounded-lg flex items-center justify-center mb-4">
+                  <Bell className="w-5 h-5 text-[#312E81]" />
                 </div>
                 <h2 className="text-xl font-bold text-[#0f172a] mb-1.5">
                   Never miss a matching car
@@ -180,7 +180,7 @@ export default function SaveSearchModal({ isOpen, onClose, searchParams, sortOpt
                       required
                       placeholder="you@example.com"
                       autoComplete="email"
-                      className="w-full px-3.5 py-2.5 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-[#2563eb]/30 focus:border-[#2563eb] outline-none transition-all bg-white placeholder:text-gray-400"
+                      className="w-full px-3.5 py-2.5 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-[#312E81]/30 focus:border-[#312E81] outline-none transition-all bg-white placeholder:text-gray-400"
                     />
                   </div>
                   <div>
@@ -195,7 +195,7 @@ export default function SaveSearchModal({ isOpen, onClose, searchParams, sortOpt
                       onChange={(e) => setFirstName(e.target.value)}
                       placeholder="Alex"
                       autoComplete="given-name"
-                      className="w-full px-3.5 py-2.5 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-[#2563eb]/30 focus:border-[#2563eb] outline-none transition-all bg-white placeholder:text-gray-400"
+                      className="w-full px-3.5 py-2.5 border border-gray-200 rounded-lg text-sm focus:ring-2 focus:ring-[#312E81]/30 focus:border-[#312E81] outline-none transition-all bg-white placeholder:text-gray-400"
                     />
                   </div>
                 </div>
@@ -214,7 +214,7 @@ export default function SaveSearchModal({ isOpen, onClose, searchParams, sortOpt
                   </button>
                   <button
                     type="submit"
-                    className="flex-1 px-4 py-2.5 bg-[#2563eb] text-white rounded-lg hover:bg-[#1d4ed8] transition-colors text-sm font-medium shadow-sm"
+                    className="flex-1 px-4 py-2.5 bg-[#312E81] text-white rounded-lg hover:bg-[#26236b] transition-colors text-sm font-medium shadow-sm"
                   >
                     Create Email Alert
                   </button>
